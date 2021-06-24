@@ -1,0 +1,37 @@
+{
+  "name": "SafeObject",
+  "version": "0.1.0",
+  "summary": "A short description of SafeObject.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/gaomin/SafeObject",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gaomin": "gaomin@zhuanzhuan.com"
+  },
+  "source": {
+    "git": "https://github.com/gaomin/SafeObject.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "default_subspecs": "Signature",
+  "dependencies": {
+    "MSwizzle": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Signature",
+      "source_files": "SafeObject/Classes/Signature/**/*"
+    },
+    {
+      "name": "Forwarding",
+      "source_files": "SafeObject/Classes/Forwarding/**/*"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+framework module Pods_SafeObject_Tests {
+  umbrella header "Pods-SafeObject_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

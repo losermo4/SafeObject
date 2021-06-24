@@ -1,0 +1,15 @@
+source 'git@github.com:losermo4/Specs.git'
+
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SafeObject_Example' do
+  pod 'SafeObject', :path => '../'
+
+  target 'SafeObject_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
