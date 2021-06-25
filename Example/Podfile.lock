@@ -1,9 +1,9 @@
 PODS:
   - MSwizzle (1.0.0)
-  - SafeObject (0.1.0):
+  - SafeObject (0.0.1):
     - MSwizzle
-    - SafeObject/Signature (= 0.1.0)
-  - SafeObject/Signature (0.1.0):
+    - SafeObject/Signature (= 0.0.1)
+  - SafeObject/Signature (0.0.1):
     - MSwizzle
 
 DEPENDENCIES:
@@ -19,8 +19,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MSwizzle: c9285ea0f723ef9a15b253074a2769d15c9a90c3
-  SafeObject: 7c54b14387bbef2a54758a34e43a564899485cf3
+  SafeObject: 8016a803a356d317e04c7f120b257f9d4caa4c0f
 
-PODFILE CHECKSUM: 33fe402a8627f2b0883b1845f6fd40739ce60630
+PODFILE CHECKSUM: 5c13f1c84b3cbbdbfb8b87ecbcde6a2a6bf7cdc0
 
 COCOAPODS: 1.10.1

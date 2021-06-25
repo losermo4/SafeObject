@@ -6,6 +6,7 @@ platform :ios, '9.0'
 
 target 'SafeObject_Example' do
   pod 'SafeObject', :path => '../'
+#pod 'SafeObject', :git => 'git@github.com:losermo4/SafeObject.git'
 
   target 'SafeObject_Tests' do
     inherit! :search_paths
